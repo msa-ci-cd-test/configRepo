@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: user-service-pod
-          image: loventure/user-service:32b1ebbe1c9b421948f672ae78cea19596097ffa
+          image: loventure/user-service:a0bcc9a
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
